@@ -1,0 +1,113 @@
+body {
+  height: 98vh;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  background-image: url("images/bg-main-desktop.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.credit1 {
+  background-image: url(images/bg-card-front.png);
+  background-repeat: no-repeat;
+  height: 250px;
+  color: white;
+  position: absolute;
+  left: 10%;
+  top: 15%;
+  width: 500px;
+}
+
+.credit2 {
+  background-image: url(images/bg-card-back.png);
+  background-repeat: no-repeat;
+  height: 250px;
+  color: white;
+  position: absolute;
+  left: 15%;
+  top: 45%;
+  width: 500px;
+  padding-left: 370px;
+  padding-top: 95px;
+}
+
+.register {
+  position: absolute;
+  right: 25%;
+  top: 25%;
+}
+
+.register p {
+  color: hsl(278, 68%, 11%);
+}
+
+.register button {
+  background-color: hsl(278, 68%, 11%);
+  color: white;
+  border: none;
+  width: 350px;
+  height: 50px;
+  border-radius: 10px;
+  margin-top: 25px;
+}
+
+.fullname {
+  padding-left: 50px;
+  padding-top: -10px;
+}
+
+.expiry {
+  padding-left: 375px;
+  margin-top: -30px;
+}
+
+.number {
+  padding-top: -10px;
+  padding-left: 20px;
+  font-size: 40px;
+}
+
+.image {
+  padding-top: 30px;
+  padding-left: 30px;
+}
+
+.name input {
+  width: 350px;
+  height: 40px;
+  border-radius: 10px;
+  margin-top: 25px;
+}
+
+.cardnumber input {
+  width: 350px;
+  height: 40px;
+  border-radius: 10px;
+  margin-top: 25px;
+}
+
+.whatever {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.expire input {
+  width: 75px;
+  height: 40px;
+  border-radius: 10px;
+  margin-top: 25px;
+}
+
+.CVC input {
+  width: 140px;
+  height: 40px;
+  border-radius: 10px;
+  margin-top: 25px;
+}
+
+.CVC {
+  padding-left: 200px;
+  margin-top: -122px;
+}
